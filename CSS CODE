@@ -1,0 +1,115 @@
+#home1{
+    margin-top:75px;
+    margin-left:0px;
+   
+}
+img {
+    height: 330px;
+}
+body{
+    background-color:honeydew;
+}
+#nav2{
+    margin-top:25px;
+   
+}
+#nav3{
+    margin-top:35px;
+    margin-left:50px;
+}
+#img3{
+    height:400px;
+    width:300px:
+}
+#anchor1{
+    height:100px;
+    width:100px;
+}
+#anchor3{
+    margin-top:10px;
+    border-image-width:4px;
+}
+#anchor3:hover{
+  border-color:darkgreen;
+}
+#divnav2{
+    background-color:aquamarine;
+    border-radius:5px;
+}
+video{
+    margin-bottom:15px;
+    height:20%;
+    width:30%;
+    margin-right:15px;
+}
+contactlink{
+    hover:blue;
+}
+#div1 {
+    width: 270px;
+    height: 30px;
+    align-content:center;
+    background-color: aqua;
+    position:relative;
+    border-radius:7px;
+    animation-timing-function: linear;
+    animation: mymove 15s infinite;
+}
+
+@keyframes mymove {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 79%;
+    }
+}
+#div2 {
+    height: 45px;
+    width: 200px;
+    align-content: center;
+   
+}
+#div2:hover {
+        height: 45px;
+        width: 250px;
+        background-color: coral;
+}
+#div3{
+    background-color:blue;
+}
+#myTab1:hover{
+    background-color:gold;
+}
+#school {
+    height: 75px;
+    width: 80%;
+}
+#school:hover{
+    height:75px;
+    width:80%;
+    background-color:greenyellow;
+    border-radius:9px;
+}
+#img4{
+    height:75px;
+    width:75px;
+}
+#img5 {
+    height: 600px;
+    width: 400px;
+}
+#img6{
+    margin:3px;
+    width:95%;
+}
+.jumbotron {
+    overflow: scroll;
+    background-color: lightblue;
+   
+    height: 50%;
+}
+
+
+
