@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>my first bootstrap page</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.5.1.min.js"></script>
+    <script src="Scripts/popper.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <ul class="nav nav-tabs nav-justified " id="myTab" role="tablist">
+            <li class="nav-item" id="myTab1">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                    <span class="fas fa-home"></span> Home
+                </a>
+            </li>
+            <li class="nav-item" id="myTab1">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+                    <span class="fas fa-user"></span> Profile
+                </a>
+            </li>
+            <li class="nav-item"  id="myTab1">
+                <a class="nav-link" id="edeucation-tab" data-toggle="tab" href="#edeucation" role="tab" aria-controls="profile" aria-selected="false">
+                    <span class="fas fa-user-graduate"></span> Education
+                </a>
+            </li>
+        </ul>
+        
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active " id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="container-fluid">
+                    <div>
+                        <div id="div1">
+                            <h5> Home Content Section</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-9" id="home1">
+                            <div class="jumbotron">
+                                <h1 class="display-4">Madan Mohan Malaviya University of Technology (MMMUT)</h1>
+                                <p class="lead">Goverment Autonomus collage.</p>
+                                <hr class="my-4">
+                                <h3>Intro</h3>
+                                <p><i>Madan Mohan Malaviya University of Technology (MMMUT)</i>.</p>
+                                <p>
+                                    The <bold>Madan Mohan Malaviya University of Technology (MMMUT)</bold> is a technical university located in the city of Gorakhpur, Uttar Pradesh, India. Established in 1962 as Madan Mohan Malaviya Engineering College, the
+                                    college became affiliated with Uttar Pradesh Technical University, Lucknow, in 2000. It was granted the status of "autonomous institute" by the University Grants Commission in 2011 and University status in 2013..
+                                </p>
+                                <h3>Cources</h3>
+                                <hr />
+                                <p>Bachelor of Technology The university offers a Bachelor of Technology degree course of four years duration in the following fields:</p>
+                                <ul>
+                                    <li>
+                                        Chemical Engineering 84 seat
+                                    </li>
+                                    <li>
+                                        Civil Engineering. 165 seat
+                                    </li>
+                                    <li>
+                                        Computer Science and Engineering 165 seat
+                                    </li>
+                                    <li>
+                                        Electrical Engineering. 165 seat
+                                    </li>
+                                    <li>
+                                        Electronics and Communications Engineering165seat
+                                    </li>
+                                    <li>
+                                        Mechanical Engineering 165 seat
+                                    </li>
+                                    <li>
+                                        Information Technology Engineering 81 seat
+                                    </li>
+                                </ul>
+                                <p>
+                                    Master of Technology The university offers twelve full-time M.Tech. programmes in Civil, Electrical, Electronics & Communication, Mechanical and Computer Sc. & Engineering Departments.
+                                </p>
+                                <p>
+                                    Master of Computer Applications A three-year M.C.A. Programme has been offered since the 1987-88 session. The present intake is 60.
+                                </p>
+                                <p>
+                                    Master of Business Administration The Centre for Management Studies of the University came into existence in 2001. Since then, it has been offering a full-time MBA programme under self -finance scheme. The courses, as prescribed by Gautam Buddha Technical University with dual specialization, are as follows
+
+                                </p>
+                                <ul>
+                                    <li>
+                                        Human Resources
+                                    </li>
+                                    <li>
+                                        Marketing
+                                    </li>
+                                    <li>
+                                        Finance
+                                    </li>
+                                    <li>
+                                        Information Technology
+                                    </li>
+                                </ul>
+                                <p>
+                                    Master of Science in Physics (Electronics) A two-year M.Sc. Programme in Physics (Electronics) has been offered since the 2018-19 session. The present intake is 32.
+                                </p>
+                                <p>
+                                    Ph.D. courses The university is approved by A.I.C.T.E. to award Ph.D. degrees under the Quality Improvement Programme. The total intake for Ph.D. under QIP is eight (two seats in each of the four disciplines, EE, EC, CE and ME). BBA Recently they announced the admission for BBA
+
+                                </p>
+                                <a class="btn btn-primary btn-sm" href="https://en.wikipedia.org/wiki/Madan_Mohan_Malaviya_University_of_Technology" role="button">Learn more</a>
+                            </div>
+                        </div>
+                        <div class=" col-xl-3" id="home1">
+                            <div class="card" style="width: 18rem;">
+                                <!--tips: add .text-center,.text-right to the .card to change card text alignment-->
+                                <div class="card-header">
+                                    <h3>Aurther</h3>
+                                    <img src="photos/IMG_20200517_230347.jpg " />
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Pawan Raj</h3>
+                                    <h6 class="card-subtitle mb-2 text-muted">Youngest enterpreneur</h6>
+                                </div>
+                                <div class="card-footer text-muted">
+                                    <a href="#profile" class="btn btn-primary">View Profile</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="container-fluid">
+                    <div class="row ">
+                        <div class="col-xl-2" id="divnav2">
+                            <div id="nav2">
+                                <ul class="nav nav-pills nav flex-column " id="myTab2" role="tablist">
+                                    <li class="nav-item" id="myTab1">
+                                        <a class="nav-link active" id="home2-tab" data-toggle="tab" href="#home2" role="tab" aria-controls="home" aria-selected="true">
+                                            <span class="fas fa-image"></span>  Images
+                                        </a>
+                                    </li>
+                                    <hr />
+                                    <li class="nav-item" id="myTab1">
+                                        <a class="nav-link" id="profile2-tab" data-toggle="tab" href="#profile2" role="tab" aria-controls="profile" aria-selected="false">
+                                            <span class="fas fa-play"></span> Videos
+                                        </a>
+                                    </li>
+                                    <hr/>
+                                    <li class="nav-item"id="myTab1">
+                                        <a class="nav-link" id="contact2-tab" data-toggle="tab" href="#contact2" role="tab" aria-controls="contact" aria-selected="false">
+                                            <span class="fas fa-address-card"></span> Contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-10">
+                            <div id="nav3">
+                                <div class="tab-content" id="myTabContent2">
+                                    <div class="tab-pane fade show active" id="home2" role="tabpanel" aria-labelledby="home2-tab">
+                                        <h4 align="center">Favourate Images</h4><hr /><br />
+                                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                            <!--Carousel Indicators-->
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                            </ol>
+                                            <!--Carousel Items-->
+                                            <div class="carousel-inner">
+                                                <!--tips: add data-interval="" to a .carousel-item to change the amount of time to delay before the next item.(Default: 5000)-->
+                                                <div class="carousel-item active">
+                                                    <img id="img3" src="photos/B612_20200227_130834_062.jpg" " class="d-block w-100" alt="Vinayak" />
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>At Bassi arival</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img id="img3" src="photos/pexels-photo-417074.jpeg" class=" d-block w-100" alt="images" />
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>My cute bhanja</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img id="img3" src="photos/pexels-photo-145939.jpeg" class=" d-block w-100" alt="images" />
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Nature</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--Carousel Controls-->
+                                            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <br />
+                                            <h4>Most liked images</h4>
+                                        </div>
+                                        <div class="row">
+
+                                            <div  id="anchor3" >
+                                                <a href="photos/forest-sunbeams-trees-sunlight-70365.jpeg" class="img-thumbnail">
+                                                    <img src="photos/forest-sunbeams-trees-sunlight-70365.jpeg" />
+                                                </a>
+                                            </div>
+                                            <div  id="anchor3" >
+                                                <a href="photos/pexels-photo-129574.jpeg" class="img-thumbnail">
+                                                    <img src="photos/pexels-photo-129574.jpeg" />
+                                                </a>
+                                            </div>
+                                            <div  id="anchor3" >
+                                                <a href="photos/pexels-photo-673857.jpeg" class="img-thumbnail">
+                                                    <img src="photos/pexels-photo-673857.jpeg" />
+                                                </a>
+                                            </div>
+                                            <div  id="anchor3" >
+                                                <a href="photos/pexels-photo-460775.jpeg" class="img-thumbnail">
+                                                    <img src="photos/pexels-photo-460775.jpeg" />
+                                                </a>
+                                            </div>
+                                            <div  id="anchor3" >
+                                                <a href="photos/pexels-photo-358238.jpeg" class="img-thumbnail">
+                                                    <img src="photos/pexels-photo-358238.jpeg" />
+                                                </a>
+                                            </div>
+                                            <div  id="anchor3" >
+                                                <a href="photos/pexels-photo-860564.jpeg" class="img-thumbnail">
+                                                    <img src="photos/pexels-photo-860564.jpeg" />
+                                                </a>
+                                            </div>
+                                            <div  id="anchor3" >
+                                                <a href="photos/pexels-photo-1586298.jpeg" class="img-thumbnail">
+                                                    <img src="photos/pexels-photo-1586298.jpeg" />
+                                                </a>
+                                            </div>
+                                            <div  id="anchor3" >
+                                                <a href="photos/cereals-field-ripe-poppy-70741.jpeg" class="img-thumbnail">
+                                                    <img src="photos/cereals-field-ripe-poppy-70741.jpeg" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="profile2" role="tabpanel" aria-labelledby="profile2-tab">
+                                        <h4 align="center">Favourate Videos</h4><hr /><br />
+                                        <div class="row">
+                                           
+                                                <video controls="controls">
+                                                    <source src="videos/---'Khuda%20Bhi'%20FULL%20VIDEO%20Song%20-%20Sunny%20Leone%20-%20Mohit%20Chauhan%20-%20Ek%20Paheli%20Leela.mp4" type="video/mp4" />
+                                                </video>
+                                           
+                                            <div>
+                                                <span>
+                                                    <p><h5>Khuda bhi</h5></p>
+                                                    The credit for this video is goes to Pawan Raj Vinayak Upadhayey,Srijan Rai,<br />Sharad Singh & Shobhit Mishra.
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <hr />
+                                        <div class="row">
+
+                                            <video controls="controls">
+                                                <source src="videos/Breakup%20Party%20-%20Upar%20Upar%20In%20The%20Air%20-%20Leo%20Feat%20Yo%20Yo%20Honey%20Singh%20-%20Full%20Song%20HD.mp4" type="video/mp4" />
+                                            </video>
+                                            <div>
+                                                <span>
+                                                    <p><h5>Breakup party</h5></p>
+                                                    The credit for this video is goes to Pawan Raj Vinayak Upadhayey,Srijan Rai,<br />Sharad Singh & Shobhit Mishra.
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <hr />
+                                        <div class="row">
+
+
+                                            <video controls="controls">
+                                                <source src="videos/Baby%20Marvake%20Maanegi%20-%20Raftaar%20_%20Nora%20Fatehi%20_%20Remo%20D'souza%20_%20India's%20first%20DANC_HD.mp4" type="video/mp4" />
+                                            </video>
+
+                                            <div>
+                                                <span>
+                                                    <p><h5>Baby marwa k manegi</h5></p>
+                                                    The credit for this video is goes to Pawan Raj Vinayak Upadhayey,Srijan Rai,<br />Sharad Singh & Shobhit Mishra.
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <hr />
+                                        <div class="row">
+
+                                            <video controls="controls">
+                                                <source src="videos/Brown%20Rang%20-%20Yo%20Yo%20Honey%20Singh%20(1080p%20HD).mp4" type="video/mp4" />
+                                            </video>
+                                            <div>
+                                                <span>
+                                                    <p><h5>Brown rang</h5></p>
+                                                    The credit for this video is goes to Pawan Raj Vinayak Upadhayey,Srijan Rai,<br />Sharad Singh & Shobhit Mishra.
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <nav aria-label="...">
+                                                <ul class="pagination justify-content-center">
+                                                    <li class="page-item disabled">
+                                                        <span class="page-link">Previous</span>
+                                                    </li>
+                                                    <li class="page-item active" aria-current="page">
+                                                        <span class="page-link">
+                                                            1<span class="sr-only">(current)</span>
+                                                        </span>
+                                                    </li>
+                                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+                                                    <li class="page-item">
+                                                        <a class="page-link" href="#">Next</a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>                                  
+                                    <div class="tab-pane fade" id="contact2" role="tabpanel" aria-labelledby="contact2-tab">
+                                            <h4 align="center">Contact</h4>
+                                            <hr />
+                                            <div>
+                                                <h5><span class="fa-facebook"</span> Contact via Facebook:</h5>
+                                                <h6 align="center"><span class="fas fa-heart"> </span><a id="contactlink" href="https://www.facebook.com/login.php">  Pawan Raj Mourya</a></h6>
+                                                <hr />
+                                            </div>
+                                            <div>
+                                                <h5><span class="fas fa-instagram"</span> Follow me on Instagram:</h5>
+                                                <h6 align="center"><span class="fas fa-heart"> </span><a id="contactlink" href="https://www.instagram.com/accounts/login/">  pawan_raj_mourya</a></h6>
+                                                <hr />
+                                            </div>
+                                            <div>
+                                                <h5><span class="fas fa-envelope"</span> Contact via E-Mail:</h5>
+                                                <h6 align="center"><span class="fas fa-heart"> </span><a id="contactlink" href="https://mail.google.com/mail/u/0/">  pawanrajssm12345@gmail.com</a></h6>
+                                                <hr />
+                                            </div>
+                                    </div>                                  
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="edeucation" role="tabpanel" aria-labelledby="edeucation-tab">
+                <div class="col-lg-12">
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal-label" data-keyboard="false" data-backdrop="static" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="myModalTitle">Login Form</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <div class="form-group">
+                                                <label for="inputEmail4">Email</label>
+                                                <input type="email" class="form-control" id="inputEmail4"  placeholder="Input E-Mail">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputPassword4">Password</label>
+                                                <input type="password" class="form-control" id="inputPassword4" placeholder="Input Password">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">Login</button>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="div3">
+                    <div id="div1">
+                        <h5> Education Content Section</h5>
+                    </div>
+                </div>
+                </br>
+                <div class="text-right">
+                    <button id="buttonmodal"class="btn btn-primary " data-toggle="modal" data-target="#myModal" align="right">Login </button>
+                </divclass="">
+                </br>
+                <div id="div2">
+                   <h3 align="center">Education</h3>
+                </div>
+                    </br>
+                <div class="container-fluid">
+                    <div class="row">
+                        <ul class="nav nav-tabs nav flex-column col-xl-2" id="myTab" role="tablist">
+                            <li class="nav-item" id="myTab1">
+                                <a class="nav-link active" id="primary-tab" data-toggle="tab" href="#primary" role="tab" aria-controls="primary" aria-selected="true">
+                                    <p align="center"><span class="fas fa-user-graduate"></span> Primary</p>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="myTab1">
+                                <a class="nav-link" id="secondary-tab" role="tab" aria-controls="secondary"data-toggle="tab" href="#secondary" aria-selected="false">
+                                    <p align="center"><span class="fas fa-user-graduate"></span> Secondary</p>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="myTab1">
+                                <a class="nav-link" id="higher-tab" data-toggle="tab" href="#higher" role="tab" aria-controls="higher" aria-selected="false">
+                                    <p align="center"><span class="fas fa-user-graduate"></span> Higher</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content col-lg-10" id="myTabContent" >
+                            <div class="tab-pane fade show active" id="primary" role="tabpanel" aria-labelledby="primary-tab">
+                                <div class="row">
+                                    <div id="school">
+                                        <h3 align="center">DAV PUBLIC SCHOOL</h3>
+                                        <h3 align="center">ADMAPUR SASARAM ROHTAS (BIHAR)</h3>
+                                    </div>
+                                    <div>
+                                        <img id="img4" align="right" src="photos/d-a-v-sr-sec-public-school-squarelogo-1495783261628.png" />
+                                    </div>
+                                </div>
+                                <hr />
+                                <div>
+                                    <img align="left" src="photos/da78ac6f-d019-42b4-baf5-3f8000fe37ac_IMG_8005.jpg" />
+                                    <img  src="photos/61c42ad5-f223-43ca-ab5f-fcf278d889fe_IMG_8013.jpg"/>                                   
+                                </div>
+                                <hr />
+                                <div>
+                                    <h4 align="left">Result:-</h4>
+                                    <br />
+                                </div>
+                                <div class="row">
+                                    <img id="img5" align="center" src="photos/in.gov.cbse-SSCER-71858712016_1.jpg" />
+                                    <img id="img5" src="photos/in.gov.cbse-SSCER-71858712016_2.jpg" />
+
+                                </div>
+                                <hr/>
+                                <div align="center">
+                                    <button class="btn btn-outline-warning"><a href="http://davsasaram.com/">More</a></button>
+                                </div>
+                                <hr />
+                                <footer align="left">
+                                    <p>@all rights are reserved</p>
+                                </footer>
+                            </div>
+                            <div class="tab-pane fade" id="secondary" role="tabpanel" aria-labelledby="secondary-tab">
+                                <div class="row">
+                                    <div id="school">
+                                        <h3 align="center">RAJ ENGLISH SCHOOL</h3>
+                                        <h3 align="center">PAHARIYA VARANASI (U.P.)</h3>
+                                    </div>
+                                    <div>
+                                        <img id="img4" align="right" src="photos/th.jpg" />
+                                    </div>
+                                </div>
+                                    <hr />
+                                    <div>
+                                        <img align="left" src="photos/raj-english-school-varanasi-rajschool-04.jpg" />
+                                        <img src="photos/raj-english-school-varanasi-rajschool-02.jpg" />
+                                    </div> 
+                                <hr/>
+                                <div>
+                                    <h4 align="left">Result:-</h4>
+                                    <br/>
+                                </div>
+                                <div class="row">
+                                    <img id="img5" align="center"src="photos/in.gov.cbse-HSCER-57372032018 (1)_1.jpg" />
+                                </div>
+                                <hr/>
+                                <div align="center">
+                                    <button  class="btn btn-outline-warning"><a href="http://rajschool.com/">More</a></button>
+                                </div>
+                                <hr/>
+                                <footer align="left">
+                                    <p>@all rights are reserved</p>
+                                </footer>
+                            </div>
+                            <div class="tab-pane fade " id="higher" role="tabpanel" aria-labelledby="higher-tab">                              
+                                <div class="row">
+                                    <div id="school">
+                                        <h3 align="center">MADAN MOHAN MALVIYA UNIVERSITY OF TECHNOLOGY</h3>
+                                        <h3 align="center">GORAKHPUR (U.P.)</h3>
+                                    </div>
+                                    <div>
+                                        <img id="img4" align="right" src="photos/largelogo.jpg" />
+                                    </div>
+                                </div>
+                                <hr />
+                                <div>
+                                    <img id="img6" align="left" src="photos/1.jpg" />
+                                    <img id="img6" align="left" src="photos/2.jpg" />
+                                </div>
+                                <hr />
+                                <div>
+                                    <h4 align="left">Result:-</h4>
+                                    <br />
+                                </div>
+                                <div class="row">
+                                    <img id="img5" align="center" src="photos/in.gov.cbse-HSCER-57372032018 (1)_1.jpg" />
+                                </div>
+                                <hr />
+                                <div align="center">
+                                    <button class="btn btn-outline-warning"><a href="http://www.mmmut.ac.in/">More</a></button>
+                                </div>
+                                <hr />
+                                <footer align="left">
+                                    <p>@all rights are reserved</p>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
